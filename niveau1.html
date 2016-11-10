@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<script src="js/memory.js"></script>
+		<script src="js/carte.js"></script>
+		<script type="text/javascript" src="js/soundmanager2.js"></script>
+		
+		<link rel="stylesheet" href="css/memory.css">
+		
+		<link rel="icon" href="img/face.png">
+		
+		<title>Memory Tim Burton</title>
+	</head>
+	<body onload="init();">
+		<header>
+			<h1>Memory : Niveau facile</h1>
+			<nav>
+				<a href="niveau1.html" class="active">Facile</a>
+				<a href="niveau2.html">Moyen</a>
+				<a href="niveau3.html">Difficile</a>
+			</nav>
+		</header>
+		<section>
+			<form name="forsec">
+				<input type="text" size="3" name="secb"> minute(s)
+				<input type="text" size="3" name="seca"> secondes
+			</form>
+			<h2 id="gagne"><h2>
+			<form id="jouer" method="post" action="niveau1.html"></form>
+			<canvas id="mon_canvas" width="425" height="405"> 
+				Le navigateur ne supporte pas les canvas.
+			</canvas>
+		</section>
+		<footer>
+			<p>Par Coralie Goldbaum, inspiré de l'univers de L'Etrange Noël de Monsieur Jack - Tim Burton.<br />
+				Chansons : versions intrumentales de "Bienvenue à Halloween", "Que vois-je ?" (L'Etrange Noël de Monsieur Jack) et "Selon notre plan" (Les Noces Funèbres).<br />
+				Images : affiches de films produits ou dirigés par Tim Burton.<br />
+			</p>
+		</footer>
+	</body>

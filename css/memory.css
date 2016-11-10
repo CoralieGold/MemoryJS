@@ -1,0 +1,103 @@
+/*imortation des polices*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@font-face {
+	font-family: Jack;
+	src: url("jack.TTF"); 
+}
+
+body {
+	text-align : center;
+	background-color: #110e19;
+	background-image : url("../img/bg.jpg");
+	background-repeat : no-repeat;
+	background-position : center;
+	font-family : 'Raleway', sans-serif;
+}
+
+/* barre de navigation */
+nav{
+	margin : auto;
+	color : #110e19;
+	font-size : 15px;
+	width : 300px;
+	height : 40px;
+	line-height : 30px;
+	font-weight : bold;
+}
+
+nav a{
+	text-decoration : none;
+	margin-right : 5px;
+	margin-left : 5px;
+}
+
+nav a:hover, .active{
+	color : #3e1221;
+}
+
+/* titres et paragraphes */
+h1 {
+	font-family : 'Jack', cursive;
+	font-size : 40px;
+}
+
+h2 {
+	font-size : 30px;
+}
+
+p {
+	color: #fad560;
+	width : 50%;
+	margin-left : 25%;
+	margin-right : 25%;
+	font-weight : bold;
+	font-size : 12px;
+	border : 1px black solid;
+	background-color : rgba(17,14,25,0.3);
+}
+
+.deco
+{
+	color: #57477F;
+}
+
+/* formulaires : boutons et zones de texte */
+
+form{
+	text-align : center;
+	width : 30%;
+	margin-left : 35%;
+	margin-right : 35%;
+	color: #110e19;
+}
+input[type="text"]{
+	text-align : center;
+	width : 40px;
+	background-image : linear-gradient(#110e19, #2B2440);
+	color : #fad560;
+	border : 1px solid #2B2440;
+	border-radius : 10px;
+}
+
+input[type="submit"]{
+	width : 70px;
+	line-height : 20px;
+	text-align : center;
+	vertical-align : middle;
+	background-image : linear-gradient(#110e19, #2B2440);
+	color : #fad560;
+	border : 1px solid #2B2440;
+	border-radius : 10px;
+}
+
+input[type="submit"]:hover {
+background-image : linear-gradient(#2B2440, #110e19);
+}
+
+
+/* canvas */
+#mon_canvas {
+	border : 1px black solid;
+	background-color : rgba(17,14,25,0.7);
+	box-shadow: 2px 2px 2px #2B2440;
+}
